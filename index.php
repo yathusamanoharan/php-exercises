@@ -14,7 +14,7 @@
 <h3 style="text-align: center">Student Registration</h3>
 <hr>
     <div class="container" style="background-color:aqua;">
-<form>
+<form action="insert-student-data.php" method="post">
   <div class="form-group"  style="margin-bottom: 20px;">
     <label for="exampleInputEmail1">Student ID</label>
     <input type="text" class="form-control" name="studentid"  placeholder="Enter Student ID">
